@@ -1,0 +1,142 @@
+1/11/2019
+row  is a flex item so childrens anni pakka pakkana vasthay like col-*
+browser is an interface and search engine is a web application
+scheme://host name/path
+https://www.w3schools.com/index/call.jpg 
+user--url--browser--domain name--dns.server--ip address--http request web server
+http response
+./ or direct path ante same folder rayachu
+../folder bayataki ravalanteg
+------------
+At Rules
+@identifier rules; or next css block
+regular,nested okkodhaniki okko rule istham
+@charset "";
+@import url("");
+....
+@support rule{
+}
+@media rule{
+}
+return type url
+mediqueries ekkada ela responsive ga kanipinchali anndhi,break points
+html lo <style>ekkada rastham</style>
+css lo direct g top level lo rastham
+like @media (rule){
+} 
+can i use.com
+4 media types ekkada ela kanipinchali ane vidhamu anamta
+all : used for all media type devices
+print: use for printers
+screen: Used for computer screens,tablets,smart-phones
+speech: used for screen readers that reads the page out
+media feature more specific ga cheppadam like width and height,orientation,aspect ratio
+W<h- potrait
+h<w -land scape
+width or min-width or max-width
+media features ni brackets lo pettali 
+(media feature:value)
+@media only screen(specific ga evvakapothe all tesukuntdhi) and (orientation: landscape)
+{
+	body{
+}
+}
+some types
+feature name: feature value
+feature name(boolean values laga)
+range from- ... (inka anni browsers vadadam ledu)
+..............
+boolean form,range form
+media query modifiers
+changes the meaning b giving some keywords like not or only
+we use them only before media type.
+using only keyword is not manditory but for old browsers to accept then we can use only
+@media screen and (min-width:400px) and (max-width:600px){
+}
+@media (media-width:400px),(height:768px){
+}
+@media screen and (color), projection and (color){
+}
+@media all{
+}
+@media{}
+
+
+@media all and (max-width:400px)
+{
+}
+@media not all and (max-width:400px)
+			   .............................................
+{
+}
+.......................................
+11/11/2013
+                media condition
+
+
+not   .                           .........................................
+....... .......media type ... and media condition....
+only  . 
+@media  media query list
+media type
+media feature
+media condition 
+A media query that does not match the grammar is converted to not all
+okati mistake rasthe motha media query list maradhu just that paart
+next dhani nunchi same ga vuntund
+---------
+inherited                 
+color
+font-size
+list-style
+list-style-type
+text-align
+.......................................................................................
+not inherited
+background-color
+background-clip
+border
+border-bottom,left,right,top,radius
+display
+height
+margin,-top,right,left,bottom
+object-fit
+overflow
+padding,-top,left,right,bottom
+width
+remarks:<image> 
+------
+31/10/2019
+Explanation about specific usage of tags in html
+Inline-block, inline,block
+Inline-block and block we can apply height and width
+Inline we cannot apply except for images
+Vertical space for inline elements
+About footer
+Better to use div after that container
+Container automatically takes fixed value and in middle and right and left sides spaces.
+Without using container we can also use margin-left and right auto value
+For ul tag and we have to fix width and applicable for block elements
+margin-left auto istha right ki content vuntundhi
+row lopala childrens anni pakkapakkana vasthay
+...............................................................................................................................
+display:list-item
+so dot will appear
+by default it is given for li element
+so to remove we can use inline-block elements
+....d-inline-block is a class having display property having inline-block value
+text-align center anedhi matram innline and inline blocj ki apply avuthundhi
+p tag anedhi block but content anedhi inline element
+..............................................................................................................................
+margin-left:auto
+and display :block ani image ki isthe llast ki move avuthundhi even though parent ki text-align center vunna image ni block ki marchadam valla ala chnage avuthundhi 
+-------------
+ordinal group based on the order
+in that they will be ordered on the basis of source code
+Viewport
+A window or other viewing area to view the output
+Some times along with scroll bar they will consider viewport width and height
+But some times it may not be considered
+Website view depends on viewport height and width and not on the screen size
+block element lo inline element vunte avi align avythay avi block ayithe
+block elements avvali ante parent ki text align property  evvali. 
